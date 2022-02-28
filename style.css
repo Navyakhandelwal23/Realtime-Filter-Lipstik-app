@@ -1,0 +1,18 @@
+h3{
+    font-size:25px;
+}
+
+.btn-success:hover{
+    background-color:aquamarine;
+}
+
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from{box-shadow:5px 5px 38px rgb(54, 10, 253)}
+    to{box-shadow:5px 5px 38px rgb(255, 75, 75)}
+}
